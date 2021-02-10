@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BinanceStatsStream"
         mc:Ignorable="d"
-        Title="BinanceStatsStream" Height="450" Width="800">
+        Title="BinanceStatsObs" Height="450" Width="800">
     <Grid>
         <PasswordBox Name="apiKeyText" HorizontalAlignment="Left" Height="23" Margin="110,160,0,0" VerticalAlignment="Top" Width="555"/>
         <PasswordBox Name="apiSecretText" HorizontalAlignment="Left" Height="23" Margin="110,188,0,0" VerticalAlignment="Top" Width="555"/>
