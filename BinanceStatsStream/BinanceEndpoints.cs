@@ -47,7 +47,7 @@ namespace View
             File.WriteAllText(@"C:\BinanceStats\Total_Balance.txt", Convert.ToString(response.totalWalletBalance));
         }
 
-        private static void DirectoryCheck()
+        public static void DirectoryCheck()
         {
             if (!System.IO.Directory.Exists(@"C:\BinanceStats\"))
             {

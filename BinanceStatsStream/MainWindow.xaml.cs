@@ -29,6 +29,8 @@ namespace BinanceStatsStream
         {
             InitializeComponent();
 
+            BinanceEndpoints.DirectoryCheck();
+
             if (File.Exists(@"C:\BinanceStats\apiKey.txt"))
             {
                 string apiKey = File.ReadAllText(@"C:\BinanceStats\apiKey.txt");
