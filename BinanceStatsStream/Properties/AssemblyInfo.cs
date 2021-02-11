@@ -8,11 +8,11 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("BinanceStatsObs")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Getting those delicious stats from Binance API")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nick van Raaij")]
 [assembly: AssemblyProduct("BinanceStatsObs")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright © Nick van Raaij 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
