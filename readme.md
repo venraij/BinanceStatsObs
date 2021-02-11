@@ -16,7 +16,7 @@ Please make sure to update tests as appropriate.
 
 
 ## Antivirus
-Your antivirus might block the exe file because it doesn't know the application ye. You can add it to the exceptions list:
+Your antivirus might block the exe file because it doesn't know the application yet. You can add it to the exceptions list:
 
 - AVAST: https://support.avast.com/en-ww/article/Antivirus-scan-exclusions
 - Windows Defender: https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26
