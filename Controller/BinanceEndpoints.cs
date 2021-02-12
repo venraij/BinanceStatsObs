@@ -44,6 +44,13 @@ namespace Controller
             // Write the received data to sepereate TXT files
             File.WriteAllText(@"C:\BinanceStats\Total_PNL.txt", Convert.ToString(response.totalCrossUnPnl));
             File.WriteAllText(@"C:\BinanceStats\Total_Balance.txt", Convert.ToString(response.totalWalletBalance));
+            File.WriteAllText(@"C:\BinanceStats\Available_Balance.txt", Convert.ToString(response.availableBalance));
+            File.WriteAllText(@"C:\BinanceStats\Total_Maintenance_Margin.txt", Convert.ToString(response.totalMaintMargin));
+            File.WriteAllText(@"C:\BinanceStats\Total_Unrealized_Profit.txt", Convert.ToString(response.totalUnrealizedProfit));
+            File.WriteAllText(@"C:\BinanceStats\Total_Margin_Balance.txt", Convert.ToString(response.totalMarginBalance));
+            File.WriteAllText(@"C:\BinanceStats\Total_Cross_Wallet_Balance.txt", Convert.ToString(response.totalCrossWalletBalance));
+            File.WriteAllText(@"C:\BinanceStats\Total_Position_Initial_Margin.txt", Convert.ToString(response.totalPositionInitialMargin));
+            File.WriteAllText(@"C:\BinanceStats\Total_Open_Order_Initial_Margin.txt", Convert.ToString(response.totalOpenOrderInitialMargin));
         }
 
         // Check is if the BinanceStats directory exists

@@ -7,7 +7,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AF1C3C9E-85B6-40E2-A5C9-6A8A449B13D2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>BinanceStatsObs</RootNamespace>
+    <RootNamespace>View</RootNamespace>
     <AssemblyName>BinanceStatsObs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
