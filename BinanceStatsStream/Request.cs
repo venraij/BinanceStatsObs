@@ -10,6 +10,8 @@ namespace View
 {
     static class Request
     {
+
+        // Boilerplate code for a basic GET request.
         public static string Get(string uri, string apiKey)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
@@ -25,6 +27,7 @@ namespace View
             }
         }
 
+        // Boilerplate code for a basic asynchronous GET request.
         public static async Task<string> GetAsync(string uri)
         {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(uri);
@@ -38,6 +41,7 @@ namespace View
             }
         }
 
+        // Boilerplate code for a basic POST request.
         public static string Post(string uri, string data, string contentType, string method = "POST")
         {
             byte[] dataBytes = Encoding.UTF8.GetBytes(data);
@@ -60,6 +64,8 @@ namespace View
                 return reader.ReadToEnd();
             }
         }
+
+        // Boilerplate code for a basic asynchronous GET request.
         public static async Task<string> PostAsync(string uri, string data, string contentType, string method = "POST")
         {
             byte[] dataBytes = Encoding.UTF8.GetBytes(data);

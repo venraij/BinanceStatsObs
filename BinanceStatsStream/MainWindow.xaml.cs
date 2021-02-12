@@ -31,6 +31,7 @@ namespace BinanceStatsStream
 
             BinanceEndpoints.DirectoryCheck();
 
+            // Check for existing keys
             if (File.Exists(@"C:\BinanceStats\apiKey.txt"))
             {
                 string apiKey = File.ReadAllText(@"C:\BinanceStats\apiKey.txt");
@@ -48,6 +49,7 @@ namespace BinanceStatsStream
             }
         }
 
+        // Save keys from input
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -66,6 +68,7 @@ namespace BinanceStatsStream
             
         }
 
+        // Get's the Binance stats
         private void getStats()
         {
             while(true)
@@ -78,6 +81,7 @@ namespace BinanceStatsStream
             }
         }
 
+        // Enables or disables getting the Binance stats
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             if(Convert.ToString(EnableButton.Content) == "Enable")
