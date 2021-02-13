@@ -2,10 +2,9 @@
 
 1. Run the BinanceStatsObs.exe file.
 2. Get your Binance API codes from: https://www.binance.com/en/my/settings/api-management
-3. Make sure you enable futures.
-4. Create a Text GDI+ source in OBS.
-5. Open the source properties and check read from file.
-6. Your stats files will be stored here: C:/BinanceStats/
+3. Create a Text GDI+ source in OBS.
+4. Open the source properties and check read from file.
+5. Your stats files will be stored here: C:/BinanceStats/
 
 Then you can easily add a Text GDI+ to obs, use read from file and your stats files will be here: C:/BinanceStats/
 
